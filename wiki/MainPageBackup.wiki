@@ -2,14 +2,13 @@
 
 == Examples ==
 
-*Total images in September 2011*:
-{{{cut -d"|" -f5 table-files.csv | grep "2011-09-" -c}}}
+*Total images in September 2011*: {{{cut -d"|" -f5 table-files.csv | grep "2011-09-" -c}}}
 
-Result: 163269
+Result: 163251
 
 *Total bytes*: {{{grep "[^|]*|[^|]*|[^|]*|[^|]*|2011-09-" table-files.csv | awk -F"|" '{x += $6} END {print "sum: "x}'}}}
 
-Result: 470121817583
+Result: 470084085543
 
 *Ranking by day*: {{{grep "[^|]*|[^|]*|[^|]*|[^|]*|2011-09-" table-files.csv | cut -d"|" -f5 | cut -c-10 | sort | uniq -c | sort -n}}}
 
@@ -19,30 +18,30 @@ Result:
    2221 2011-09-03
    2375 2011-09-01
    2859 2011-09-08
-   2983 2011-09-06
+   2979 2011-09-06
    3053 2011-09-07
-   3155 2011-09-09
+   3153 2011-09-09
    3349 2011-09-05
    3380 2011-09-14
    3479 2011-09-04
    3555 2011-09-10
    3603 2011-09-16
    3761 2011-09-13
-   4078 2011-09-12
+   4076 2011-09-12
    4181 2011-09-20
    4314 2011-09-11
-   4418 2011-09-22
-   4662 2011-09-17
+   4414 2011-09-22
+   4661 2011-09-17
    4684 2011-09-21
-   4782 2011-09-15
+   4780 2011-09-15
    4824 2011-09-23
    5104 2011-09-19
-   6131 2011-09-24
+   6130 2011-09-24
    6646 2011-09-26
    7041 2011-09-18
-   8176 2011-09-25
+   8175 2011-09-25
    9132 2011-09-27
-  10386 2011-09-28
+  10385 2011-09-28
   13222 2011-09-29
   22150 2011-09-30
 }}}
@@ -60,9 +59,9 @@ Result:
     329 PA00086780
     412 70099
     415 PA00093999
-  55490 
+  52536 
 }}}
 
 It is PA00093999 with more than 400 photographs, an abbey in Conques, France. See a gallery with [http://commons.wikimedia.org/wiki/Category:Abbatiale_Sainte-Foy_de_Conques some photos] and the [http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1=PA00093999 official profile].
 
-About 55490 has no info about the monument id.
+About 52536 has no info about the monument id.
