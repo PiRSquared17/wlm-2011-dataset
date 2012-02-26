@@ -1,6 +1,11 @@
 = Wiki Loves Monuments 2011 dataset =
 
+This is a dataset for [http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2011 Wiki Loves Monuments 2011].
+
 == Examples ==
+
+All the examples have been created using [http://code.google.com/p/wlm-2011-dataset/downloads/list?can=2&q=v1 wlm-2011-dataset-v1.zip].
+
 
 *Total images in September 2011*: {{{cut -d"|" -f5 table-files.csv | grep "2011-09-" -c}}}
 
