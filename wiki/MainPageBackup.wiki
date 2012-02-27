@@ -11,6 +11,10 @@ All the examples have been created using [http://code.google.com/p/wlm-2011-data
 
 Result: 163251
 
+*Total images in September 2011 from Spain*: {{{grep "[^|]*|[^|]*|[^|]*|[^|]*|2011-09-" table-files.csv | cut -d"|" -f10 | grep "^es" -c}}}
+
+Result: 16708
+
 *Total bytes*: {{{grep "[^|]*|[^|]*|[^|]*|[^|]*|2011-09-" table-files.csv | awk -F"|" '{x += $6} END {print "sum: "x}'}}}
 
 Result: 470084085543
