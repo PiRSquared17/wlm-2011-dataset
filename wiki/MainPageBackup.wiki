@@ -2,9 +2,23 @@
 
 This is a dataset for [http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2011 Wiki Loves Monuments 2011].
 
-== Examples ==
+== Dataset structure ==
+{{{
+file_id|file_name|file_user_name|file_date_taken|file_date_upload|file_size|file_width|file_height|file_monument_id|file_country
+16430663|File:0 Bergues - Beffroi (1).jpg|Jean-Pol GRANDMONT|2011-08-30T17:58:02Z|2011-09-11T11:30:44Z|2949829|2373|3560||fr
+16604917|"File:""DINTR-UN LEMN"" MONASTERY 2.jpg"|Strainubot|2007-08-14T10:06:22Z|2011-09-20T21:16:03Z|2481893|2816|1584|VL-II-a-A-09742|ro
+16416551|File:01 - Ambronay Abbaye .jpg|Thierry de Villepin|2011-08-08T15:59:01Z|2011-09-10T14:29:23Z|8365933|5184|3456|PA00116291|fr
+16499008|File:'s Gravenvoeren (60).JPG|Basvb|2011-07-10T19:00:34Z|2011-09-15T17:38:52Z|4863766|3264|2448|37689|be
+16594537|File:0 Bouillon - Remparts sud-est du château.JPG|Jean-Pol GRANDMONT|2008-06-30T12:51:01Z|2011-09-20T14:14:19Z|1616344|1288|1936||be
+16509491|"File:""Русский Музей"", г.Санкт-Петербург.jpg"|Antonleto|2009-09-22T00:50:02Z|2011-09-16T10:51:23Z|3559611|3888|2592|7810526000|ru
+16509495|"File:""Русский Музей"", картинный зал, г.Санкт-Петербург (2).jpg"|Antonleto|2009-09-22T01:21:06Z|2011-09-16T10:51:25Z|4248560|3888|2592|7810526000|ru
+16633433|File:05.kaplica z 1848r w Łowiczu.jpg|Michalmarczyk|2011-09-21T15:35:24Z|2011-09-22T12:20:30Z|2409545|4000|3000|LD;128/571;Łowicz|pl
+17149008|"File:""Halászlány"" kútszobor (4965. számú műemlék).jpg"|TgrBot|2011-07-25T15:44:08Z|2011-10-28T00:56:19Z|789238|1500|1117|4965|
+}}}
 
-All the examples have been created using [http://code.google.com/p/wlm-2011-dataset/downloads/list?can=2&q=v1 wlm-2011-dataset-v1.zip].
+== Usage examples ==
+
+All the examples have been created using [http://code.google.com/p/wlm-2011-dataset/downloads/detail?name=wlm-2011-dataset-v1.zip wlm-2011-dataset-v1.zip].
 
 
 *Total images in September 2011*: {{{cut -d"|" -f5 table-files.csv | grep "2011-09-" -c}}}
