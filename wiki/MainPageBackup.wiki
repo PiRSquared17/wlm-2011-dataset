@@ -1,6 +1,6 @@
 = Wiki Loves Monuments 2011 dataset =
 
-This is a dataset for [http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2011 Wiki Loves Monuments 2011].
+This is a dataset for [http://commons.wikimedia.org/wiki/Commons:Wiki_Loves_Monuments_2011 Wiki Loves Monuments 2011]. It contains metadata of all the images uploaded to Wikimedia Commons from September 1 to September 30, 2011, during the Wiki Loves Monuments 2011 photo contest. 
 
 == Dataset structure ==
 {{{
